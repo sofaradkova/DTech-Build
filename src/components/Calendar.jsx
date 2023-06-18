@@ -5,10 +5,10 @@ import CalendarDates from './CalendarDates'
 
 export default function Calendar() {
     return (
-        <div>
-            <CalendarDates />
+        <div className="calendar-main">
+            <CalendarTimes />
             <div className="calendar-container">
-                <CalendarTimes />
+                <CalendarDates />
                 <div>
                     <CalendarGrid />
                 </div>
