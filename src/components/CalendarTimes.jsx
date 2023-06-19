@@ -3,6 +3,7 @@ import React from 'react'
 export default function CalendarTimes() {
     return (
         <div className="calendar-times">
+            <div>8am</div>
             <div>9am</div>
             <div>10am</div>
             <div>11am</div>
