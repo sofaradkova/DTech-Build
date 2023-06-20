@@ -7,6 +7,7 @@ export default function App() {
   return (
     <div>
       <h1>Event Name</h1>
+      <h1>Gabys edit</h1>
       <Calendar />
     </div>
   )
