@@ -1,12 +1,15 @@
-import { useState } from 'react'
-import './App.css'
+//import { useState } from 'react'
+import React from 'react'
+import './index.css'
+import Calendar from './components/Calendar'
 
-function App() {
+export default function App() {
   return (
-    <>
-      <h1>Calendar</h1>
-    </>
+    <div>
+      <h1>Event Name</h1>
+      <h1>Gabys edit</h1>
+      <Calendar />
+    </div>
   )
 }
 
-export default App
