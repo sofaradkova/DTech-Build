@@ -7,7 +7,6 @@ import EventCreate from './components/EventCreate'
 
 export default function App() {
   return (
-<<<<<<< HEAD
     <div className='app-container'>
       <div className='widgets-container'>
         <SignIn />
@@ -17,12 +16,6 @@ export default function App() {
         <h1 className='calendar-name'>Event Name</h1>
         <Calendar />
       </div>
-=======
-    <div>
-      <div>test</div>
-      <h1>Event Name</h1>
-      <Calendar />
->>>>>>> 4cce814bbba63a04e2a4de22bf796f12bd4d0923
     </div>
   )
 }
