@@ -13,10 +13,17 @@ body {
   font-size: 12px;
 }
 
+.app-container {
+  display: flex;
+}
+
 h1 {
   font-size: 36px;
   font-weight: 700;
-  margin-left: 1110px;
+}
+
+.calendar-name {
+  margin-left: 760px;
   margin-bottom: 10px;
 }
 
@@ -59,7 +66,7 @@ ul{
 
 .calendar-main {
   display: flex;
-  margin-left: 400px;
+  margin-left: 54px;
 }
 
 .calendar-times {
@@ -92,4 +99,30 @@ ul{
 .calendar-line {
   margin: 0px;
   color: black;
+}
+
+.sign-in {
+  width: 243px;
+  height: 196px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.event-create {
+  width: 243px;
+  border: 1px solid black;
+  height: 400px;
+}
+
+.calendar-widget {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.widgets-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 102px;
+  margin-top: 90px;
 }
