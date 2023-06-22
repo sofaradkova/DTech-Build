@@ -126,3 +126,9 @@ ul{
   margin-left: 102px;
   margin-top: 90px;
 }
+
+.navbar {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
