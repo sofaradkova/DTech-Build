@@ -127,6 +127,13 @@ ul{
   margin-top: 90px;
 }
 
+<<<<<<< HEAD
+.navbar {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+=======
 /*gabys portion for sign in box below*/
 
 .App {
@@ -242,3 +249,4 @@ button{
 
 
 
+>>>>>>> develop
