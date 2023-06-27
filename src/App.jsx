@@ -14,8 +14,7 @@ import HomePage from "./pages/HomePage";
 
 export default function App() {
   return (
-<<<<<<< HEAD
-    <div>
+    <>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
@@ -27,19 +26,7 @@ export default function App() {
           </Route>
         </Routes>
       </BrowserRouter>
-=======
-    <div className='app-container'>
-      <div className='widgets-container'>
-        <SignIn />
-        <EventCreate />
-      </div>
-      <div>
-        <h1 className='calendar-name'>Event Name</h1>
-        <Calendar />
-      </div>
->>>>>>> develop
-    </div>
-    
+    </>
   )
 }
 
