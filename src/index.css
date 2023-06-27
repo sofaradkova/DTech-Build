@@ -101,23 +101,12 @@ ul{
   color: black;
 }
 
-.sign-in {
-  width: 243px;
-  height: 196px;
-  border: 1px solid black;
-  margin-bottom: 20px;
-}
 
-.event-create {
-  width: 243px;
-  border: 1px solid black;
-  height: 400px;
-}
-
-.calendar-widget {
+.calendar-widget { /*ideally would get rid of but 
+  messes with page formatting?*/
   width: 200px;
   height: 200px;
-  border: 1px solid black;
+  border: 1px solid white;
 }
 
 .widgets-container {
@@ -128,45 +117,34 @@ ul{
 }
 
 /*gabys portion for sign in box below*/
-
-.App {
-  text-align: center;
-    justify-content: center;
-    display: flex;
-    padding-top: 210px;
-    padding-bottom: 210px;
-  background-color: #F5F7F9;
- 
-
-
-}
 .auth-form-container{
-  justify-content:center;
   display: flex;
-
+  width: 243px;
+  padding: 22px 21px 23px 21px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 21px;
 }
-
 
 .login-form{ /*makes the box*/
   
-  box-sizing: border-box;
-  position: absolute;
+  display: flex;
   width: 243px;
-  height: 196px;
-  left: 102px;
-  top: 268px;
+  padding: 22px 21px 23px 21px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 21px;
    
-  padding-top: 30px;
-  border-radius: 60px;
+  
+  
   background: #F5F7F9;
   border: 2px solid #000000;
   box-shadow: 4px 4px 0px #000000;
   border-radius: 10px;
 
-
 }
-
-
 
 
 input {
@@ -179,25 +157,8 @@ input {
   outline: none;
   background-color: #D9D9D9;
   }
-.email{
-  
-  height: 25px;
-  width: 25px;
-  
-  
-}
-.name{
-  
-  
-  font-size: 16px;
-}
-.second-input{
-  padding-top: 20px;
-
-}
 
 
- 
  
 /*input2 {
   position: absolute;
@@ -216,26 +177,22 @@ input {
 
 
 button{
-
   width: 125px;
   height: 35px;
-  left: 59px;
-  top: 400px;
+  
  
   background: #787878;
   border-radius: 100px;
   border: none;
   cursor: pointer;
   color: #F5F7F9;
- 
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 15px;
-
+  
 }
 .login-button{
-  padding-top: 20px;
+  color: #F5F7F9;
+  font-size: 12px;
+  font-family: Inter;
+  font-weight: 700;
 }
 
 

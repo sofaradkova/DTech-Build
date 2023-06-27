@@ -23,9 +23,9 @@ export default function SignIn(){
            <div className="second-input">
              <input type="text" placeholder="youremail@email.com" className="name"/>
            </div>
-          <div className="login-button">
-          <button>Login</button>
-          </div>
+           <div className="login-button">
+            <button>Sign In</button>
+           </div>
                
             </form>
         </div>
